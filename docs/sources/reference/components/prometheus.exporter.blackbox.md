@@ -55,8 +55,7 @@ The following labels can be set to a target:
 * `address`: The address of the target to probe (required).
 * `module`: The blackbox module to use to probe.
 
-Any additional labels will be passed to the exported target of the component.
-
+The component passes any additional labels to the exported target.
 
 See [blackbox_exporter](https://github.com/prometheus/blackbox_exporter/blob/master/example.yml) for details on how to generate a config file.
 
