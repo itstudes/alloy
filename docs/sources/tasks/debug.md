@@ -92,6 +92,7 @@ Live debugging is not yet available in all components.
 
 Supported components:
 * prometheus.relabel
+* otelcol.processor.*
 {{< /admonition >}}
 
 
